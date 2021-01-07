@@ -1,0 +1,7 @@
+    ######################## Start Forgot Password ########################
+    Route::get('forgot-password',[App\Http\Controllers\Admin\LoginController::class,'ForgotPassword'])->name('forgot-password');
+    ######################## End Forgot Password ##########################
+
+    ######################### Start GetLogin  #############################
+    Route::get('login',[App\Http\Controllers\Admin\LoginController::class,'getLogin'])->name('get.admin.login');
+    ######################### End GetLogin  ###############################
